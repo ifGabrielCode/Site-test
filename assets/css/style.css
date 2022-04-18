@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Ubuntu, sans-serif;
+}
+
+#header-primary {
+    background-color: #d2d2d2;
+    padding: 15px 0;
+}
+
+#header-primary .logo {
+    max-width: 120px;
+}
+
+#header-primary .logo img {
+    width: 100%;
+}
+
+#header-primary nav {
+    margin: auto 0 auto auto;
+}
+
+#header-primary ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+#header-primary ul li {
+    margin: 0 10px;
+}
+
+#header-primary ul li:last-child {
+    margin-right: 0;
+}
+
+#header-primary ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    transition: all ease-in-out 200ms;
+}
+
+#header-primary ul li a:hover {
+    color: #0000ff;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1124px;
+    margin: 0 auto;
+}
+
+@media (min-width: 640px) {
+    #header-primary ul li a {
+        color: #0000ff;
+    }
+}
